@@ -87,7 +87,7 @@
         <v-card>
           <v-main>
             <v-form @submit.prevent="addEvent">
-              <v-text-field v-model="name" type="text" label="Name"></v-text-field>
+              <v-text-field v-model="name" type="text" label="Name und Uhrzeit"></v-text-field>
               <v-text-field v-model="ort" type="text" label="Ort(Gym oder Platz)"></v-text-field>
               <v-text-field v-model="start" type="date" label="Startdatum"></v-text-field>
               <v-text-field v-model="ende" type="date" label="Enddatum"></v-text-field>
